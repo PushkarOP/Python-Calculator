@@ -27,7 +27,7 @@ while True:
     print(num1, "*", num2, "=", multiply(num1, num2))
  elif choice == '4':
     print(num1, "/", num2, "=", divide(num1, num2))
- elif choice <= '999999':
+ else:
     print("Plese Select Valid Choice")
  print("==========================================")
  choice2 = input("Do You Want To Continue Yes/No?")
